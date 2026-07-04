@@ -1,0 +1,29 @@
+title: Praveen Ezhil
+description: Engineer who loves to build distributed systems that are scalable and resilient.
+url: "https://pre2500.github.io"
+baseurl: ""
+
+github_username: pre2500
+linkedin_username: praveen-raj-e-a965802b
+
+theme: minima
+
+minima:
+  skin: classic
+  social_links:
+    - { platform: github, user_url: "https://github.com/pre2500" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/praveen-raj-e-a965802b/" }
+
+header_pages:
+  - about.md
+  - blog.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
